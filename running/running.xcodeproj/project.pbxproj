@@ -15,6 +15,7 @@
 		F1B813B220EE0AC70011D2F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B813B120EE0AC70011D2F1 /* main.m */; };
 		F1B813BC20EE0AC70011D2F1 /* runningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B813BB20EE0AC70011D2F1 /* runningTests.m */; };
 		F1B813C720EE0AC70011D2F1 /* runningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B813C620EE0AC70011D2F1 /* runningUITests.m */; };
+		F1B813D820EE0C840011D2F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B813D720EE0C840011D2F1 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F1B813C220EE0AC70011D2F1 /* runningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B813C620EE0AC70011D2F1 /* runningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runningUITests.m; sourceTree = "<group>"; };
 		F1B813C820EE0AC70011D2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B813D620EE0C840011D2F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1B813D720EE0C840011D2F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		F1B813A120EE0AC60011D2F1 /* running */ = {
 			isa = PBXGroup;
 			children = (
+				F1B813D520EE0C7C0011D2F1 /* 飞 */,
+				F1B813D420EE0C7C0011D2F1 /* 跑 */,
 				F1B813A220EE0AC60011D2F1 /* AppDelegate.h */,
 				F1B813A320EE0AC60011D2F1 /* AppDelegate.m */,
 				F1B813A520EE0AC60011D2F1 /* ViewController.h */,
@@ -130,6 +135,22 @@
 				F1B813C820EE0AC70011D2F1 /* Info.plist */,
 			);
 			path = runningUITests;
+			sourceTree = "<group>";
+		};
+		F1B813D420EE0C7C0011D2F1 /* 跑 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "跑";
+			sourceTree = "<group>";
+		};
+		F1B813D520EE0C7C0011D2F1 /* 飞 */ = {
+			isa = PBXGroup;
+			children = (
+				F1B813D620EE0C840011D2F1 /* ViewController.h */,
+				F1B813D720EE0C840011D2F1 /* ViewController.m */,
+			);
+			path = "飞";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +285,7 @@
 			files = (
 				F1B813A720EE0AC60011D2F1 /* ViewController.m in Sources */,
 				F1B813B220EE0AC70011D2F1 /* main.m in Sources */,
+				F1B813D820EE0C840011D2F1 /* ViewController.m in Sources */,
 				F1B813A420EE0AC60011D2F1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

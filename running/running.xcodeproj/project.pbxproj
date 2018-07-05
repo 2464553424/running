@@ -16,6 +16,7 @@
 		F1B813BC20EE0AC70011D2F1 /* runningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B813BB20EE0AC70011D2F1 /* runningTests.m */; };
 		F1B813C720EE0AC70011D2F1 /* runningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B813C620EE0AC70011D2F1 /* runningUITests.m */; };
 		F1B813D820EE0C840011D2F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B813D720EE0C840011D2F1 /* ViewController.m */; };
+		F1B813DB20EE0CCA0011D2F1 /* runViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B813DA20EE0CCA0011D2F1 /* runViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		F1B813C820EE0AC70011D2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1B813D620EE0C840011D2F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F1B813D720EE0C840011D2F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1B813D920EE0CCA0011D2F1 /* runViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = runViewController.h; sourceTree = "<group>"; };
+		F1B813DA20EE0CCA0011D2F1 /* runViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 		F1B813D420EE0C7C0011D2F1 /* 跑 */ = {
 			isa = PBXGroup;
 			children = (
+				F1B813D920EE0CCA0011D2F1 /* runViewController.h */,
+				F1B813DA20EE0CCA0011D2F1 /* runViewController.m */,
 			);
 			path = "跑";
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 				F1B813B220EE0AC70011D2F1 /* main.m in Sources */,
 				F1B813D820EE0C840011D2F1 /* ViewController.m in Sources */,
 				F1B813A420EE0AC60011D2F1 /* AppDelegate.m in Sources */,
+				F1B813DB20EE0CCA0011D2F1 /* runViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,6 +18,7 @@
     [super viewDidLoad];
     NSLog(@"跑行快乐");
     
+    
 }
 
 - (void)didReceiveMemoryWarning {
